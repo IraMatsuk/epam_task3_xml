@@ -1,0 +1,1170 @@
+2021-11-01 18:23:15 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:23:15 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:23:15 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:25:21 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:41 - src/resources/data/papers.xml can't be read
+2021-11-01 18:25:21 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:41 - src/resources/data/papers.xml can't be read
+2021-11-01 18:26:19 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:26:19 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: AgeCategory[]
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Title: Вяжем шьем вышиваем
+Age category: AgeCategory[]
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Детективная Газета
+Age category: AgeCategory[]
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Навука
+Age category: AgeCategory[]
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Frequency[]
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: AgeCategory[]
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Frequency[]
+Color: Monochrome, Magazine[direction=Direction[]], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: AgeCategory[]
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: AgeCategory[]
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Frequency[]
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: AgeCategory[]
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Frequency[]
+Color: Polychrome]
+2021-11-01 18:26:19 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:28:44 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:28:44 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: AgeCategory[]
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Title: Вяжем шьем вышиваем
+Age category: AgeCategory[]
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Детективная Газета
+Age category: AgeCategory[]
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Навука
+Age category: AgeCategory[]
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Frequency[]
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: AgeCategory[]
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Frequency[]
+Color: Monochrome, Magazine[direction=Direction[]], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: AgeCategory[]
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: AgeCategory[]
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Frequency[]
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: AgeCategory[]
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Frequency[]
+Color: Polychrome]
+2021-11-01 18:28:44 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:28:44 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:41 - src/main/resources/data/schema/xsd can't be read
+2021-11-01 18:30:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:30:12 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: AgeCategory[]
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Title: Вяжем шьем вышиваем
+Age category: AgeCategory[]
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Детективная Газета
+Age category: AgeCategory[]
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Навука
+Age category: AgeCategory[]
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Frequency[]
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: AgeCategory[]
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Frequency[]
+Color: Monochrome, Magazine[direction=Direction[]], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: AgeCategory[]
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: AgeCategory[]
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Frequency[]
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: AgeCategory[]
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Frequency[]
+Color: Polychrome]
+2021-11-01 18:30:12 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:30:12 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:30:12 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:35:14 [main] ERROR by.matsukiryna.validator:20 - 17 : 16 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.fairycompany.com/papers":color}'. One of '{"http://www.fairycompany.com/papers":frequency}' is expected.
+2021-11-01 18:35:14 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:39 - src/main/resources/data/papers.xml or src/main/resources/data/schema.xsd is not correct of valid
+2021-11-01 18:35:14 [main] ERROR by.matsukiryna.validator:20 - 17 : 16 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.fairycompany.com/papers":color}'. One of '{"http://www.fairycompany.com/papers":frequency}' is expected.
+2021-11-01 18:35:14 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:39 - src/main/resources/data/papers.xml or src/main/resources/data/schema.xsd is not correct of valid
+2021-11-01 18:35:36 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:35:36 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: AgeCategory[]
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Title: Вяжем шьем вышиваем
+Age category: AgeCategory[]
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Детективная Газета
+Age category: AgeCategory[]
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Навука
+Age category: AgeCategory[]
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Frequency[]
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: AgeCategory[]
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Frequency[]
+Color: Monochrome, Magazine[direction=Direction[]], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: AgeCategory[]
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: AgeCategory[]
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Frequency[]
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: AgeCategory[]
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Frequency[]
+Color: Polychrome]
+2021-11-01 18:35:36 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:35:36 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:35:36 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@7bba5817[]
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Title: Вяжем шьем вышиваем
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@75437611[]
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Детективная Газета
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@350aac89[]
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Навука
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@1c5920df[]
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Frequency[]
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@17f9d882[]
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Frequency[]
+Color: Monochrome, Magazine[direction=Direction[]], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@79e4c792[]
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@196a42c3[]
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Frequency[]
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@4c60d6e9[]
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Frequency[]
+Color: Polychrome]
+2021-11-01 18:37:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:37:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:37:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@7bba5817[]
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Title: Вяжем шьем вышиваем
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@75437611[]
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Детективная Газета
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@350aac89[]
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Навука
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@1c5920df[]
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Frequency[]
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@17f9d882[]
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Frequency[]
+Color: Monochrome, Magazine[direction=Direction[]], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@79e4c792[]
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@196a42c3[]
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Frequency[]
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: [Lby.matsukiryna.xmltask.entity.AgeCategory;@4c60d6e9[]
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Frequency[]
+Color: Polychrome]
+2021-11-01 18:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:55 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:55 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: AgeCategory[]
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Title: Вяжем шьем вышиваем
+Age category: AgeCategory[]
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Детективная Газета
+Age category: AgeCategory[]
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Навука
+Age category: AgeCategory[]
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Frequency[]
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: AgeCategory[]
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Frequency[]
+Color: Monochrome, Magazine[direction=Direction[]], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: AgeCategory[]
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: AgeCategory[]
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Frequency[]
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: AgeCategory[]
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Frequency[]
+Color: Polychrome]
+2021-11-01 18:37:55 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:37:55 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:37:55 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:39:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:39:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: All
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Title: Вяжем шьем вышиваем
+Age category: All
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Детективная Газета
+Age category: Adult
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], Magazine[direction=Direction[]], 
+Title: Навука
+Age category: All
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Frequency[]
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: All
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Frequency[]
+Color: Monochrome, Magazine[direction=Direction[]], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: All
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Direction[]], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: All
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Frequency[]
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: All
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Frequency[]
+Color: Polychrome]
+2021-11-01 18:39:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:39:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:39:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:40:08 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:08 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: All
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Science], 
+Title: Вяжем шьем вышиваем
+Age category: All
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Other], Magazine[direction=Other], 
+Title: Детективная Газета
+Age category: Adult
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Medicine], Magazine[direction=Sport], 
+Title: Навука
+Age category: All
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Frequency[]
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: All
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Frequency[]
+Color: Monochrome, Magazine[direction=Other], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: All
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Frequency[]
+Color: Polychrome, Magazine[direction=Medicine], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: All
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Frequency[]
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: All
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Frequency[]
+Color: Polychrome]
+2021-11-01 18:40:08 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:40:08 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:40:08 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:40:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: All
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-06-03
+Circulation: 18000
+Frequency: Weekly
+Color: Polychrome, Magazine[direction=Science], 
+Title: Вяжем шьем вышиваем
+Age category: All
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-06-02
+Circulation: 18000
+Frequency: Weekly
+Color: Polychrome, Magazine[direction=Other], Magazine[direction=Other], 
+Title: Детективная Газета
+Age category: Adult
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-06-02
+Circulation: 55000
+Frequency: Monthly
+Color: Polychrome, Magazine[direction=Medicine], Magazine[direction=Sport], 
+Title: Навука
+Age category: All
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-06-02
+Circulation: 15000
+Frequency: Weekly
+Color: Polychrome, 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: All
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-06-07
+Circulation: 50000
+Frequency: Daily
+Color: Monochrome, Magazine[direction=Other], 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: All
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-05-04
+Circulation: 60000
+Frequency: Weekly
+Color: Polychrome, Magazine[direction=Medicine], 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: All
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-05-28
+Circulation: 17000
+Frequency: Daily
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: All
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-05-28
+Circulation: 12000
+Frequency: Weekly
+Color: Polychrome]
+2021-11-01 18:40:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:40:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:40:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:42:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:42:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Title: Детективная Газета
+Age category: Adult
+Subscription index: i15038
+Properties:
+	Issue: 1028
+	Pages: 28
+	Price: 3.7
+	Issue date: 2021-11-01
+Circulation: 55000
+Frequency: Monthly
+Color: Polychrome, 
+Title: Знамя Юности
+Age category: All
+Subscription index: i18403
+Properties:
+	Issue: 780
+	Pages: 20
+	Price: 1.7
+	Issue date: 2021-11-01
+Circulation: 12000
+Frequency: Weekly
+Color: Polychrome, Magazine[direction=Medicine], 
+Title: Вяжем шьем вышиваем
+Age category: All
+Subscription index: i19025
+Properties:
+	Issue: 487
+	Pages: 36
+	Price: 4.0
+	Issue date: 2021-11-01
+Circulation: 18000
+Frequency: Weekly
+Color: Polychrome, Magazine[direction=Other], 
+Website: www.pvz.by
+Title: Переходный возраст
+Age category: All
+Subscription index: i63192
+Properties:
+	Issue: 780
+	Pages: 40
+	Price: 4.2
+	Issue date: 2021-11-01
+Circulation: 18000
+Frequency: Weekly
+Color: Polychrome, 
+Website: www.aif.by
+Title: Аргументы И Факты
+Age category: All
+Subscription index: i13137
+Properties:
+	Issue: 1540
+	Pages: 28
+	Price: 2.6
+	Issue date: 2021-11-01
+Circulation: 60000
+Frequency: Weekly
+Color: Polychrome, 
+Title: Навука
+Age category: All
+Subscription index: i17038
+Properties:
+	Issue: 386
+	Pages: 28
+	Price: 2.8
+	Issue date: 2021-11-01
+Circulation: 15000
+Frequency: Weekly
+Color: Polychrome, 
+Website: www.vitbichi.by
+Title: Вiтьбiчы
+Age category: All
+Subscription index: i78013
+Properties:
+	Issue: 3804
+	Pages: 16
+	Price: 1.45
+	Issue date: 2021-11-01
+Circulation: 17000
+Frequency: Daily
+Color: Polychrome, Magazine[direction=Sport], Magazine[direction=Science], Magazine[direction=Other], Magazine[direction=Other], Magazine[direction=Medicine], 
+Website: www.sb.by
+Title: Советская Беларусь
+Age category: All
+Subscription index: i45891
+Properties:
+	Issue: 1814
+	Pages: 22
+	Price: 3.25
+	Issue date: 2021-11-01
+Circulation: 50000
+Frequency: Daily
+Color: Monochrome]
+2021-11-01 18:42:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
+2021-11-01 18:42:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:42:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
