@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<papers xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+        xmlns ="http://www.fairycompany.com/papers"
+        xsi:schemaLocation = "http://www.fairycompany.com/papers papers.xsd">
+
+    <newspaper age-category="all" website="www.sb.by">
+        <title>Советская Беларусь</title>
+        <subscription-index>i45891</subscription-index>
+        <paper-properties>
+            <issue>1814</issue>
+            <pages>22</pages>
+            <price>3.25</price>
+            <issue-date>2021-06-07</issue-date>
+        </paper-properties>
+        <circulation>50000</circulation>
+        <color>false</color>
+        <frequency>daily</frequency>
+    </newspaper>
+
+    <newspaper age-category="all" website="www.aif.by">
+        <title>Аргументы И Факты</title>
+        <subscription-index>i13137</subscription-index>
+        <paper-properties>
+            <issue>1540</issue>
+            <pages>28</pages>
+            <price>2.60</price>
+            <issue-date>2021-05-04</issue-date>
+        </paper-properties>
+        <circulation>60000</circulation>
+        <color>true</color>
+        <frequency>weekly</frequency>
+    </newspaper>
+
+    <magazine age-category="all" website="www.igromania.ru">
+        <title>Игромания</title>
+        <subscription-index>i76398</subscription-index>
+        <paper-properties>
+            <issue>1548</issue>
+            <pages>208</pages>
+            <price>20.00</price>
+            <issue-date>2021-06-08</issue-date>
+        </paper-properties>
+        <circulation>180000</circulation>
+        <direction>sport</direction>
+    </magazine>
+
+    <magazine age-category="all">
+        <title>Speak English</title>
+        <subscription-index>i87954</subscription-index>
+        <paper-properties>
+            <issue>450</issue>
+            <pages>110</pages>
+            <price>18.00</price>
+            <issue-date>2021-05-11</issue-date>
+        </paper-properties>
+        <circulation>28000</circulation>
+        <direction>other</direction>
+    </magazine>
+</papers>

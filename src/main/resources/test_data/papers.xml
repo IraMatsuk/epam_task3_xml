@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<papers xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+        xmlns ="http://www.fairycompany.com/papers"
+        xsi:schemaLocation = "http://www.fairycompany.com/papers schema.xsd">
+
+    <newspaper age-category="all" website="www.aif.by">
+        <title>Аиф</title>
+        <subscription-index>i13137</subscription-index>
+        <paper-properties>
+            <issue>1503</issue>
+            <pages>100</pages>
+            <price>3.50</price>
+            <issue-date>2021-06-16</issue-date>
+        </paper-properties>
+        <circulation>60000</circulation>
+        <color>true</color>
+        <frequency>daily</frequency>
+    </newspaper>
+
+    <newspaper age-category="adult">
+        <title>СБ</title>
+        <subscription-index>i00001</subscription-index>
+        <paper-properties>
+            <issue>1503</issue>
+            <pages>100</pages>
+            <price>3.50</price>
+            <issue-date>2021-06-16</issue-date>
+        </paper-properties>
+        <circulation>25000</circulation>
+        <color>false</color>
+        <frequency>weekly</frequency>
+    </newspaper>
+
+    <magazine age-category="all">
+        <title>Doctor</title>
+        <subscription-index>i20056</subscription-index>
+        <paper-properties>
+            <issue>1503</issue>
+            <pages>100</pages>
+            <price>3.50</price>
+            <issue-date>2021-06-16</issue-date>
+        </paper-properties>
+        <circulation>43000</circulation>
+        <direction>medicine</direction>
+    </magazine>
+</papers>
