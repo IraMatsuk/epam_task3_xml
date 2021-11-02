@@ -1,4 +1,4 @@
-package by.matsukiryna.xmltask.parser;
+package by.matsukiryna.xmltask.builder;
 
 import by.matsukiryna.xmltask.entity.*;
 

@@ -6,46 +6,46 @@
     <newspaper id="P01" age-category="all">
         <title>Советская Беларусь</title>
         <paper-properties>
-            <issue>1814</issue>
-            <pages>22</pages>
+            <issue>1900</issue>
+            <pages>20</pages>
             <glossy>false</glossy>
-            <price>3.25</price>
-            <issue-date>2021-11-01</issue-date>
+            <price>2.30</price>
+            <issue-date>2021-11-02</issue-date>
         </paper-properties>
-        <circulation>50000</circulation>
-        <color>false</color>
+        <circulation>20000</circulation>
+        <color>true</color>
         <frequency>daily</frequency>
-        <subscription-index>i45891</subscription-index>
+        <subscription-index>i45841</subscription-index>
     </newspaper>
 
-    <magazine id="P02" age-category="all">
-        <title>Игромания</title>
+    <magazine id="P02" age-category="adult">
+        <title>Science</title>
         <paper-properties>
-            <issue>1548</issue>
-            <pages>208</pages>
-            <glossy>false</glossy>
-            <price>20.00</price>
+            <issue>450</issue>
+            <pages>110</pages>
+            <glossy>true</glossy>
+            <price>25.00</price>
             <issue-date>2021-11-01</issue-date>
         </paper-properties>
-        <circulation>180000</circulation>
-        <color>false</color>
-        <frequency>daily</frequency>
-        <subscription-index>i76398</subscription-index>
-        <direction>other</direction>
+        <circulation>28000</circulation>
+        <color>true</color>
+        <frequency>monthly</frequency>
+        <subscription-index>i78398</subscription-index>
+        <direction>science</direction>
     </magazine>
 
     <magazine id="P03" age-category="all">
-        <title>Cool</title>
+        <title>Medicine</title>
         <paper-properties>
-            <issue>1548</issue>
-            <pages>63</pages>
-            <glossy>false</glossy>
-            <price>8.50</price>
-            <issue-date>2021-11-01</issue-date>
+            <issue>1800</issue>
+            <pages>66</pages>
+            <glossy>true</glossy>
+            <price>9.50</price>
+            <issue-date>2021-10-21</issue-date>
         </paper-properties>
-        <circulation>43000</circulation>
-        <color>false</color>
-        <frequency>daily</frequency>
+        <circulation>52000</circulation>
+        <color>true</color>
+        <frequency>monthly</frequency>
         <subscription-index>i20056</subscription-index>
         <direction>medicine</direction>
     </magazine>
@@ -67,7 +67,7 @@
     </magazine>
 
     <booklet id="P05" age-category="all">
-        <title>Poznay svoyu Belarus</title>
+        <title>Познай свою Беларусь</title>
         <paper-properties>
             <issue>1000</issue>
             <pages>48</pages>
@@ -79,209 +79,49 @@
         <color>false</color>
         <frequency>monthly</frequency>
     </booklet>
+
+    <newspaper id="P06" age-category="adult">
+        <title>Аргументы И Факты</title>
+        <paper-properties>
+            <issue>1000</issue>
+            <pages>24</pages>
+            <glossy>false</glossy>
+            <price>1.98</price>
+            <issue-date>2021-11-01</issue-date>
+        </paper-properties>
+        <circulation>50000</circulation>
+        <color>false</color>
+        <frequency>weekly</frequency>
+        <subscription-index>i45896</subscription-index>
+    </newspaper>
+
+    <newspaper id="P07" age-category="adult">
+        <title>The New York Times</title>
+        <paper-properties>
+            <issue>4000</issue>
+            <pages>20</pages>
+            <glossy>false</glossy>
+            <price>2.25</price>
+            <issue-date>2021-11-02</issue-date>
+        </paper-properties>
+        <circulation>50000</circulation>
+        <color>true</color>
+        <frequency>daily</frequency>
+        <subscription-index>i65896</subscription-index>
+    </newspaper>
+
+    <booklet id="P08" age-category="child">
+        <title>About Vaccination</title>
+        <paper-properties>
+            <issue>2</issue>
+            <pages>8</pages>
+            <glossy>true</glossy>
+            <price>1.55</price>
+            <issue-date>2021-05-01</issue-date>
+        </paper-properties>
+        <circulation>10000</circulation>
+        <color>true</color>
+        <frequency>monthly</frequency>
+    </booklet>
 </papers>
 
-    <!--    <newspaper age-category="all" website="www.aif.by">-->
-    <!--        <title>Аргументы И Факты</title>-->
-    <!--        <subscription-index>i13137</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>1540</issue>-->
-    <!--            <pages>28</pages>-->
-    <!--            <price>2.60</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>60000</circulation>-->
-    <!--        <color>true</color>-->
-    <!--        <frequency>weekly</frequency>-->
-    <!--    </newspaper>-->
-
-    <!--    <newspaper age-category="adult">-->
-    <!--        <title>Детективная Газета</title>-->
-    <!--        <subscription-index>i15038</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>1028</issue>-->
-    <!--            <pages>28</pages>-->
-    <!--            <price>3.70</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>55000</circulation>-->
-    <!--        <color>true</color>-->
-    <!--        <frequency>monthly</frequency>-->
-    <!--    </newspaper>-->
-
-    <!--    <newspaper age-category="all">-->
-    <!--        <title>Знамя Юности</title>-->
-    <!--        <subscription-index>i18403</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>780</issue>-->
-    <!--            <pages>20</pages>-->
-    <!--            <price>1.70</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>12000</circulation>-->
-    <!--        <color>true</color>-->
-    <!--        <frequency>weekly</frequency>-->
-    <!--    </newspaper>-->
-
-    <!--    <newspaper age-category="all">-->
-    <!--        <title>Навука</title>-->
-    <!--        <subscription-index>i17038</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>386</issue>-->
-    <!--            <pages>28</pages>-->
-    <!--            <price>2.80</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>15000</circulation>-->
-    <!--        <color>true</color>-->
-    <!--        <frequency>weekly</frequency>-->
-    <!--    </newspaper>-->
-
-    <!--    <newspaper age-category="all">-->
-    <!--        <title>Вяжем шьем вышиваем</title>-->
-    <!--        <subscription-index>i19025</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>487</issue>-->
-    <!--            <pages>36</pages>-->
-    <!--            <price>4.00</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>18000</circulation>-->
-    <!--        <color>true</color>-->
-    <!--        <frequency>weekly</frequency>-->
-    <!--    </newspaper>-->
-
-    <!--    <newspaper age-category="all" website="www.pvz.by">-->
-    <!--        <title>Переходный возраст</title>-->
-    <!--        <subscription-index>i63192</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>780</issue>-->
-    <!--            <pages>40</pages>-->
-    <!--            <price>4.20</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>18000</circulation>-->
-    <!--        <color>true</color>-->
-    <!--        <frequency>weekly</frequency>-->
-    <!--    </newspaper>-->
-
-    <!--    <magazine age-category="all">-->
-    <!--        <title>Speak English</title>-->
-    <!--        <subscription-index>i87954</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>450</issue>-->
-    <!--            <pages>110</pages>-->
-    <!--            <price>18.00</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>28000</circulation>-->
-    <!--        <direction>other</direction>-->
-    <!--    </magazine>-->
-
-    <!--    <magazine age-category="child">-->
-    <!--        <title>Мурзилка</title>-->
-    <!--        <subscription-index>i12380</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>511</issue>-->
-    <!--            <pages>32</pages>-->
-    <!--            <price>6.50</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>32000</circulation>-->
-    <!--        <direction>other</direction>-->
-    <!--    </magazine>-->
-
-
-    <!--    <magazine age-category="all">-->
-    <!--        <title>Народный доктор</title>-->
-    <!--        <subscription-index>i14567</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>580</issue>-->
-    <!--            <pages>98</pages>-->
-    <!--            <price>12.00</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>70000</circulation>-->
-    <!--        <direction>medicine</direction>-->
-    <!--    </magazine>-->
-
-    <!--    <magazine age-category="all" website="www.internauka.org">-->
-    <!--        <title>Интернаука</title>-->
-    <!--        <subscription-index>i45781</subscription-index>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>360</issue>-->
-    <!--            <pages>68</pages>-->
-    <!--            <price>23.50</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>280000</circulation>-->
-    <!--        <direction>science</direction>-->
-    <!--    </magazine>-->
-    <!--    <magazine id="P05" age-category="all">-->
-    <!--        <title>Cool</title>-->
-    <!--        <paper-properties>-->
-    <!--            <issue>1548</issue>-->
-    <!--            <pages>63</pages>-->
-    <!--            <price>8.50</price>-->
-    <!--            <issue-date>2021-11-01</issue-date>-->
-    <!--        </paper-properties>-->
-    <!--        <circulation>43000</circulation>-->
-    <!--        <subscription-index>i20056</subscription-index>-->
-    <!--        <color>false</color>-->
-    <!--        <direction>medicine</direction>-->
-    <!--    </magazine>-->
-
-<!--    <newspaper id="ID1" publication-date="1894-10-10">-->
-<!--        <title>The Wall Street Journal</title>-->
-<!--        <monthly>yes</monthly>-->
-<!--        <paper-properties>-->
-<!--            <color>true</color>-->
-<!--            <pages>58</pages>-->
-<!--            <glossy>false</glossy>-->
-<!--        </paper-properties>-->
-<!--        <subscription-index>0099-9660</subscription-index>-->
-<!--    </newspaper>-->
-
-<!--    <newspaper id="ID2" publication-date="1864-12-10">-->
-<!--        <title>The New York Times</title>-->
-<!--        <monthly>yes</monthly>-->
-<!--        <paper-properties>-->
-<!--            <color>true</color>-->
-<!--            <pages>70</pages>-->
-<!--            <glossy>false</glossy>-->
-<!--        </paper-properties>-->
-<!--        <subscription-index>0362-4331</subscription-index>-->
-<!--    </newspaper>-->
-
-<!--    <newspaper id="ID3" publication-date="1917-08-09">-->
-<!--        <title>Zviazda</title>-->
-<!--        <monthly>yes</monthly>-->
-<!--        <paper-properties>-->
-<!--            <color>false</color>-->
-<!--            <pages>10</pages>-->
-<!--            <glossy>false</glossy>-->
-<!--        </paper-properties>-->
-<!--        <subscription-index>63850</subscription-index>-->
-<!--    </newspaper>-->
-
-
-<!--    <magazine id="ID4" publication-date="1812-01-01">-->
-<!--        <title>The New England Journal of Medicine</title>-->
-<!--        <monthly>no</monthly>-->
-<!--        <paper-properties>-->
-<!--            <color>true</color>-->
-<!--            <pages>70</pages>-->
-<!--            <glossy>true</glossy>-->
-<!--        </paper-properties>-->
-<!--        <subscription-index>0028-4793</subscription-index>-->
-<!--    </magazine>-->
-
-<!--    <booklet id="ID5" publication-date="2016-11-19">-->
-<!--        <title>Poznay svoyu Belarus</title>-->
-<!--        <monthly>no</monthly>-->
-<!--        <paper-properties>-->
-<!--            <color>true</color>-->
-<!--            <pages>38</pages>-->
-<!--            <glossy>true</glossy>-->
-<!--        </paper-properties>-->
-<!--    </booklet>-->

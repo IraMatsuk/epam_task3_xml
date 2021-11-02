@@ -1,7 +1,8 @@
 package by.matsukiryna.xmltask.main;
 
 import by.matsukiryna.xmltask.exception.XmlException;
-import by.matsukiryna.xmltask.parser.*;
+import by.matsukiryna.xmltask.builder.*;
+import by.matsukiryna.xmltask.factory.PaperBuilderFactory;
 import by.matsukiryna.xmltask.util.ResourceFile;
 import by.matsukiryna.xmltask.validator.PaperXmlValidator;
 import org.apache.logging.log4j.Level;

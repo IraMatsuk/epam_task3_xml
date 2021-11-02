@@ -1,5 +1,9 @@
-package by.matsukiryna.xmltask.parser;
+package by.matsukiryna.xmltask.factory;
 
+import by.matsukiryna.xmltask.builder.AbstractPaperBuilder;
+import by.matsukiryna.xmltask.builder.PapersDomBuilder;
+import by.matsukiryna.xmltask.builder.PapersSaxBuilder;
+import by.matsukiryna.xmltask.builder.PapersStaxBuilder;
 import by.matsukiryna.xmltask.entity.ParserType;
 
 public class PaperBuilderFactory {
