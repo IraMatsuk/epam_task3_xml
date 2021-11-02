@@ -32,15 +32,13 @@ public class PaperXmlValidator {
             validator.setErrorHandler(new PaperErrorHandler());
             validator.validate(source);
             isXmlRight = true;
-
             logger.log(Level.DEBUG, "File is valid");
 
         } catch (SAXException e) {
-            logger.log(Level.ERROR, "{} or {} is not correct of valid", fileName, SCHEMA_NAME);
+            logger.log(Level.ERROR, "Incorrect file", fileName, SCHEMA_NAME);
         } catch (IOException e) {
-            logger.log(Level.ERROR, "{} can't be read", fileName);
+            logger.log(Level.ERROR, "File can't be read", fileName);
         }
-
         return isXmlRight;
     }
 }

@@ -1,6 +1,7 @@
 package by.matsukiryna.xmltask.parser;
 
 import by.matsukiryna.xmltask.entity.AbstractPaper;
+import by.matsukiryna.xmltask.entity.Booklet;
 import by.matsukiryna.xmltask.entity.Magazine;
 import by.matsukiryna.xmltask.entity.Newspaper;
 import by.matsukiryna.xmltask.exception.XmlException;
@@ -43,10 +44,8 @@ public class StAXPaperParser extends AbstractPaperBuilder {
         try {
             logger.log(Level.INFO, "StAX parsing has started");
             XMLEventReader reader = inputFactory.createXMLEventReader(new FileInputStream(fileName));
-
             while (reader.hasNext()) {
                 XMLEvent event = reader.nextEvent();
-
                 if (event.isStartElement()) {
                     StartElement startElement = event.asStartElement();
                     String textElement = startElement.getName().getLocalPart();
@@ -56,48 +55,59 @@ public class StAXPaperParser extends AbstractPaperBuilder {
                     switch (currentXmlTag) {
                         case NEWSPAPER:
                             paper = new Newspaper();
+                            Attribute id = startElement.getAttributeByName(new QName(ID.getValue()));
+                            paper.setId(id.getValue());
                             Attribute ageCategory = startElement.getAttributeByName(new QName(AGE_CATEGORY.getValue()));
-                            paper.setAgeCategory(ageCategory.getValue());
-                            Attribute website = startElement.getAttributeByName(new QName(WEBSITE.getValue()));
-                            if (website != null) {
-                                paper.setWebsite(website.getValue());
+                            if (ageCategory == null) {
+                                paper.setAgeCategory(ageCategory.getValue());
                             }
                             break;
                         case MAGAZINE:
                             paper = new Magazine();
+                            id = startElement.getAttributeByName(new QName(ID.getValue()));
+                            paper.setId(id.getValue());
                             ageCategory = startElement.getAttributeByName(new QName(AGE_CATEGORY.getValue()));
-                            paper.setAgeCategory(ageCategory.getValue());
-                            website = startElement.getAttributeByName(new QName(WEBSITE.getValue()));
-                            if (website != null) {
-                                paper.setWebsite(website.getValue());
+                            if (ageCategory == null) {
+                                paper.setAgeCategory(ageCategory.getValue());
                             }
                             break;
+                        case BOOKLET:
+                            paper = new Booklet();
+                            id = startElement.getAttributeByName(new QName(ID.getValue()));
+                            paper.setId(id.getValue());
+                            ageCategory = startElement.getAttributeByName(new QName(AGE_CATEGORY.getValue()));
+                            if (ageCategory == null) {
+                                paper.setAgeCategory(ageCategory.getValue());
+                            }
                         case TITLE:
                             event = reader.nextEvent();
                             paper.setTitle(event.asCharacters().getData());
-                            break;
-                        case SUBSCRIPTION_INDEX:
-                            event = reader.nextEvent();
-                            paper.setSubscriptionIndex(event.asCharacters().getData());
                             break;
                         case CIRCULATION:
                             event = reader.nextEvent();
                             paper.setCirculation(Integer.parseInt(event.asCharacters().getData()));
                             break;
+                        case SUBSCRIPTION_INDEX:
+                            event = reader.nextEvent();
+                            if (event.equals(NEWSPAPER)) {
+                                ((Newspaper)paper).setSubscriptionIndex(event.asCharacters().getData());
+                            } else if (event.equals(MAGAZINE)) {
+                                ((Magazine) paper).setSubscriptionIndex(event.asCharacters().getData());
+                            }
+                            break;
                         case COLOR:
                             event = reader.nextEvent();
-                            ((Newspaper) paper).setColor(Boolean.parseBoolean(event.asCharacters().getData()));
+                            paper.setColor(Boolean.parseBoolean(event.asCharacters().getData()));
                             break;
                         case FREQUENCY:
                             event = reader.nextEvent();
-                            ((Newspaper) paper).setFrequency(event.asCharacters().getData());
+                            paper.setFrequency(event.asCharacters().getData());
                             break;
                         case DIRECTION:
                             event = reader.nextEvent();
                             ((Magazine) paper).setDirection(event.asCharacters().getData());
                             break;
                         default:
-
                             if (event.isStartElement()) {
                                 StartElement startElementProperty = event.asStartElement();
                                 textElement = startElementProperty.getName().getLocalPart();
@@ -115,6 +125,11 @@ public class StAXPaperParser extends AbstractPaperBuilder {
                                         paper.getPaperProperties()
                                                 .setPages(Integer.parseInt(event.asCharacters().getData()));
                                         break;
+                                    case GLOSSY:
+                                        event = reader.nextEvent();
+                                        paper.getPaperProperties()
+                                                .setGlossy(Boolean.parseBoolean(event.asCharacters().getData()));
+                                        break;
                                     case PRICE:
                                         event = reader.nextEvent();
                                         paper.getPaperProperties()
@@ -127,21 +142,21 @@ public class StAXPaperParser extends AbstractPaperBuilder {
                                         break;
                                 }
                             }
-
                     }
                 }
 
                 if (event.isEndElement()) {
                     EndElement endElement = event.asEndElement();
                     String textElement = endElement.getName().getLocalPart();
-                    if (textElement.equals(NEWSPAPER.getValue()) || textElement.equals(MAGAZINE.getValue())) {
+                    if (textElement.equals(NEWSPAPER.getValue()) || textElement.equals(MAGAZINE.getValue())
+                    || textElement.equals(BOOKLET.getValue())) {
                         papers.add(paper);
                     }
                 }
             }
 
         } catch (FileNotFoundException | XMLStreamException e) {
-            logger.log(Level.ERROR, "Error with the underlying XML {}", fileName);
+            logger.log(Level.ERROR, "Error with the underlying XML ", fileName);
         }
 
         logger.log(Level.INFO, "StAX parsing has finished successfully");

@@ -2,24 +2,25 @@ package by.matsukiryna.xmltask.entity;
 
 public abstract class AbstractPaper {
     private String title;
-    private String subscriptionIndex;
-    private String website;
+    private String id;
     private AgeCategory ageCategory;
     private int circulation;
+    private boolean color;
     private PaperProperties paperProperties = new PaperProperties();
+    private Frequency frequency;
 
     public AbstractPaper() {
-
     }
 
-    public AbstractPaper(String title, String subscriptionIndex, String website, AgeCategory ageCategory,
-                         int circulation, PaperProperties paperProperties) {
+    public AbstractPaper(String title, String id, AgeCategory ageCategory,
+                         int circulation, boolean color, PaperProperties paperProperties, Frequency frequency) {
         this.title = title;
-        this.subscriptionIndex = subscriptionIndex;
-        this.website = website;
+        this.id = id;
         this.ageCategory = ageCategory;
         this.circulation = circulation;
+        this.color = color;
         this.paperProperties = paperProperties;
+        this.frequency = frequency;
     }
 
     public String getTitle() {
@@ -30,20 +31,12 @@ public abstract class AbstractPaper {
         this.title = title;
     }
 
-    public String getSubscriptionIndex() {
-        return subscriptionIndex;
+    public String getId() {
+        return id;
     }
 
-    public void setSubscriptionIndex(String subscriptionIndex) {
-        this.subscriptionIndex = subscriptionIndex;
-    }
-
-    public String getWebsite() {
-        return website;
-    }
-
-    public void setWebsite(String website) {
-        this.website = website;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public AgeCategory getAgeCategory() {
@@ -66,6 +59,14 @@ public abstract class AbstractPaper {
         this.circulation = circulation;
     }
 
+    public boolean isColor() {
+        return color;
+    }
+
+    public void setColor(boolean color) {
+        this.color = color;
+    }
+
     public PaperProperties getPaperProperties() {
         return paperProperties;
     }
@@ -74,47 +75,58 @@ public abstract class AbstractPaper {
         this.paperProperties = paperProperties;
     }
 
+    public Frequency getFrequency() {
+        return frequency;
+    }
+
+    public void setFrequency(Frequency frequency) {
+        this.frequency = frequency;
+    }
+
+    public void setFrequency(String frequency) {
+        this.frequency = Frequency.valueOf(frequency.toUpperCase());
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         AbstractPaper that = (AbstractPaper) o;
-
         if (circulation != that.circulation) return false;
-        if (title != null ? !title.equals(that.title) : that.title != null) return false;
-        if (subscriptionIndex != null ? !subscriptionIndex.equals(that.subscriptionIndex) : that.subscriptionIndex != null)
-            return false;
-        if (website != null ? !website.equals(that.website) : that.website != null) return false;
+        if (color != that.color) return false;
+        if (title != title) return false;
+        if (id != that.id) return false;
         if (ageCategory != that.ageCategory) return false;
-
-        return paperProperties != null ? paperProperties.equals(that.paperProperties) : that.paperProperties == null;
+        if (frequency != that.frequency) return false;
+        return paperProperties == that.paperProperties;
     }
 
     @Override
     public int hashCode() {
         int result = title != null ? title.hashCode() : 0;
-        result = 31 * result + (subscriptionIndex != null ? subscriptionIndex.hashCode() : 0);
-        result = 31 * result + (website != null ? website.hashCode() : 0);
+        result = 31 * result + (id != null ? id.hashCode() : 0);
         result = 31 * result + (ageCategory != null ? ageCategory.hashCode() : 0);
         result = 31 * result + circulation;
+        result = 31 * result + (color ? 1 : 0);
         result = 31 * result + (paperProperties != null ? paperProperties.hashCode() : 0);
-
+        result = 31 * result + (frequency != null ? frequency.hashCode() : 0);
         return result;
     }
 
     @Override
     public String toString() {
-        final StringBuilder paper = new StringBuilder("");
-        if (getWebsite() != null) {
-            paper.append("\nWebsite: ").append(website);
-        }
-        paper.append("\nTitle: ").append(title)
-                .append("\nAge category: ").append(ageCategory)
-                .append("\nSubscription index: ").append(subscriptionIndex)
-                .append(paperProperties)
+        final StringBuilder sb = new StringBuilder();
+        sb.append("\nTitle: ").append(title)
+                .append("\nID: ").append(id)
+                .append("\nAgeCategory: ").append(ageCategory)
                 .append("\nCirculation: ").append(circulation);
-
-        return paper.toString();
+        if (color) {
+            sb.append("\nColor: Yes");
+        } else {
+            sb.append("\nColor: No");
+        }
+        sb.append("\nPaperProperties: ").append(paperProperties)
+                .append("\nFrequency: ").append(frequency);
+        return sb.toString();
     }
 }

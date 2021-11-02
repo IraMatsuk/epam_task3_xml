@@ -23,7 +23,7 @@ public class SAXPaperParserTest {
 
     @Test(dataProvider = "parsers")
     public void testBuildSetPapers(AbstractPaperBuilder builder) throws XmlException {
-        builder.buildSetPapers("src/main/resources/test_data/papers.xml");
+        builder.buildSetPapers("resources/test_data/papers.xml");
         Set<AbstractPaper> actual = builder.getPapers();
         Set<AbstractPaper> expected = new XmlExpectedDataTest().papers;
         assertEquals(actual, expected);

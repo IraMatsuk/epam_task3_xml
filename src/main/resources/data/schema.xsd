@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-        targetNamespace="http://www.fairycompany.com/papers"
-        xmlns:tns="http://www.fairycompany.com/papers"
+        targetNamespace="http://www.example.com/papers"
+        xmlns:tns="http://www.example.com/papers"
         elementFormDefault="qualified">
 
     <element name="paper" type="tns:Paper" abstract="true"/>
     <element name="newspaper" type="tns:Newspaper" substitutionGroup="tns:paper"/>
     <element name="magazine" type="tns:Magazine" substitutionGroup="tns:paper"/>
+    <element name="booklet" type="tns:Booklet" substitutionGroup="tns:paper"/>
     <element name="papers">
         <complexType>
             <sequence>
-                <element ref="tns:paper"
-                         maxOccurs="unbounded"/>
+                <element ref="tns:paper" maxOccurs="unbounded"/>
             </sequence>
         </complexType>
     </element>
@@ -19,20 +19,20 @@
     <complexType name="Paper">
         <sequence>
             <element name="title" type="string"/>
-            <element name="subscription-index" type="tns:IndexID"/>
             <element name="paper-properties" type="tns:PaperProperties"/>
             <element name="circulation" type="positiveInteger"/>
+            <element name="color" type="boolean" default = "false"/>
+            <element name="frequency" type="tns:Frequency"/>
         </sequence>
-        <attribute name="website" type="tns:Website"/>
-        <attribute name="age-category" type="tns:AgeCategory" use="required"/>
+        <attribute name="id" type="tns:PaperID" use="required"/>
+        <attribute name="age-category" type="tns:AgeCategory" use="optional"/>
     </complexType>
 
     <complexType name="Newspaper">
         <complexContent>
             <extension base="tns:Paper">
                 <sequence>
-                    <element name="color" type="boolean" default = "false"/>
-                    <element name="frequency" type="tns:Frequency"/>
+                    <element name="subscription-index" type="tns:IndexID"/>
                 </sequence>
             </extension>
         </complexContent>
@@ -42,8 +42,16 @@
         <complexContent>
             <extension base="tns:Paper">
                 <sequence>
+                    <element name="subscription-index" type="tns:IndexID"/>
                     <element name="direction" type="tns:Direction"/>
                 </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Booklet">
+        <complexContent>
+            <extension base="tns:Paper">
             </extension>
         </complexContent>
     </complexType>
@@ -52,14 +60,15 @@
         <sequence>
             <element name="issue" type="positiveInteger"/>
             <element name="pages" type="positiveInteger"/>
+            <element name="glossy" type="boolean"/>
             <element name="price" type="tns:Price"/>
             <element name="issue-date" type="date"/>
         </sequence>
     </complexType>
 
-    <simpleType name="Website">
-        <restriction base="string">
-            <pattern value="www\.\w{2,20}\.\p{L}{2,3}"/>
+    <simpleType name="PaperID">
+        <restriction base="ID">
+            <pattern value="\w{1,10}"/>
         </restriction>
     </simpleType>
 
@@ -99,100 +108,4 @@
             <enumeration value="other"/>
         </restriction>
     </simpleType>
-<!--    <element name="paper" type="tns:Paper" abstract="true"/>-->
-<!--    <element name="newspaper" type="tns:Newspaper" substitutionGroup="tns:paper"/>-->
-<!--    <element name="magazine" type="tns:Magazine" substitutionGroup="tns:paper"/>-->
-<!--    <element name="booklet" type="tns:Booklet" substitutionGroup="tns:paper"/>-->
-
-<!--    <element name="papers">-->
-<!--        <complexType>-->
-<!--            <sequence>-->
-<!--                <element ref="tns:paper" maxOccurs="unbounded"/>-->
-<!--            </sequence>-->
-<!--        </complexType>-->
-<!--    </element>-->
-
-<!--    <complexType name="Paper">-->
-<!--        <sequence>-->
-<!--            <element name="title" type="string"/>-->
-<!--            <element name="monthly">-->
-<!--                <simpleType>-->
-<!--                    <restriction base="string">-->
-<!--                        <enumeration value="yes"/>-->
-<!--                        <enumeration value="no"/>-->
-<!--                    </restriction>-->
-<!--                </simpleType>-->
-<!--            </element>-->
-<!--            <element name="paper-properties" type="tns:PaperProperties"/>-->
-<!--        </sequence>-->
-<!--        <attribute name="id" type="tns:PaperID" use="required"/>-->
-<!--        <attribute name="publication-date" type="date" use="required"/>-->
-<!--    </complexType>-->
-
-<!--    <complexType name="Newspaper">-->
-<!--        <complexContent>-->
-<!--            <extension base="tns:Paper">-->
-<!--                <sequence>-->
-<!--                    <element name="subscription-index" type="tns:Index"/>-->
-<!--                </sequence>-->
-<!--            </extension>-->
-<!--        </complexContent>-->
-<!--    </complexType>-->
-
-<!--    <complexType name="Magazine">-->
-<!--        <complexContent>-->
-<!--            <extension base="tns:Paper">-->
-<!--                <sequence>-->
-<!--                    <element name="subscription-index" type="tns:Index"/>-->
-<!--                </sequence>-->
-<!--            </extension>-->
-<!--        </complexContent>-->
-<!--    </complexType>-->
-
-<!--    <complexType name="Booklet">-->
-<!--        <complexContent>-->
-<!--            <extension base="tns:Paper"/>-->
-<!--        </complexContent>-->
-<!--    </complexType>-->
-
-<!--    <complexType name="PaperProperties">-->
-<!--        <sequence>-->
-<!--            <element name="color" default="false">-->
-<!--                <simpleType>-->
-<!--                    <restriction base="boolean">-->
-<!--                        <enumeration value="true"/>-->
-<!--                        <enumeration value="false"/>-->
-<!--                    </restriction>-->
-<!--                </simpleType>-->
-<!--            </element>-->
-<!--            <element name="pages">-->
-<!--                <simpleType>-->
-<!--                    <restriction base="positiveInteger">-->
-<!--                        <minExclusive value="1"/>-->
-<!--                        <maxExclusive value="100"/>-->
-<!--                    </restriction>-->
-<!--                </simpleType>-->
-<!--            </element>-->
-<!--            <element name="glossy" default="false">-->
-<!--                <simpleType>-->
-<!--                    <restriction base="boolean">-->
-<!--                        <enumeration value="true"/>-->
-<!--                        <enumeration value="false"/>-->
-<!--                    </restriction>-->
-<!--                </simpleType>-->
-<!--            </element>-->
-<!--        </sequence>-->
-<!--    </complexType>-->
-
-<!--    <simpleType name="PaperID">-->
-<!--        <restriction base="ID">-->
-<!--            <pattern value="\w{1,10}"/>-->
-<!--        </restriction>-->
-<!--    </simpleType>-->
-
-<!--    <simpleType name="Index">-->
-<!--        <restriction base="string">-->
-<!--            <pattern value="^\d{4}-\d{4}?$"/>-->
-<!--        </restriction>-->
-<!--    </simpleType>-->
 </schema>

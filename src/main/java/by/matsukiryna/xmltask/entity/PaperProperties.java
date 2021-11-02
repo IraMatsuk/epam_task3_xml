@@ -1,21 +1,21 @@
 package by.matsukiryna.xmltask.entity;
 
 import java.time.LocalDate;
-import java.util.Objects;
 
 public class PaperProperties {
     private int issue;
     private int pages;
+    private boolean glossy;
     private double price;
     private LocalDate issueDate;
 
     public PaperProperties() {
-
     }
 
-    public PaperProperties(int issue, int pages, double price, LocalDate issueDate) {
+    public PaperProperties(int issue, int pages, boolean glossy, double price, LocalDate issueDate) {
         this.issue = issue;
         this.pages = pages;
+        this.glossy = glossy;
         this.price = price;
         this.issueDate = issueDate;
     }
@@ -34,6 +34,14 @@ public class PaperProperties {
 
     public void setPages(int pages) {
         this.pages = pages;
+    }
+
+    public boolean isGlossy() {
+        return glossy;
+    }
+
+    public void setGlossy(boolean glossy) {
+        this.glossy = glossy;
     }
 
     public double getPrice() {
@@ -55,12 +63,9 @@ public class PaperProperties {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof PaperProperties)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
         PaperProperties that = (PaperProperties) o;
-        if (issue != that.issue) return false;
-        if (pages != that.pages) return false;
-        if (Double.compare(that.price, price) != 0) return false;
-        return Objects.equals(issueDate, that.issueDate);
+        return issue == that.issue && pages == that.pages && glossy == that.glossy && Double.compare(that.price, price) == 0 && issueDate == that.issueDate;
     }
 
     @Override
@@ -69,6 +74,7 @@ public class PaperProperties {
         long temp;
         result = issue;
         result = 31 * result + pages;
+        result = 31 * result + (glossy ? 1 : 0);
         temp = Double.doubleToLongBits(price);
         result = 31 * result + (int) (temp ^ (temp >>> 32));
         result = 31 * result + (issueDate != null ? issueDate.hashCode() : 0);
@@ -78,8 +84,9 @@ public class PaperProperties {
     @Override
     public String toString() {
         final StringBuilder properties = new StringBuilder();
-        properties.append("\nProperties:\n\tIssue: ").append(issue)
+        properties.append("\n\tIssue: ").append(issue)
                 .append("\n\tPages: ").append(pages)
+                .append("\n\tGlossy: ").append(glossy)
                 .append("\n\tPrice: ").append(price)
                 .append("\n\tIssue date: ").append(issueDate);
         return properties.toString();

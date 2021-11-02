@@ -37,7 +37,6 @@ public class SAXPaperParser extends  AbstractPaperBuilder {
         if (!PaperXmlValidator.validatePaperXml(fileName)) {
             throw new XmlException(String.format("File %s hasn't passed validation!", fileName));
         }
-
         try {
             reader.parse(fileName);
         } catch (IOException | SAXException e) {

@@ -1,55 +1,39 @@
 package by.matsukiryna.xmltask.entity;
 
 public class Newspaper extends AbstractPaper {
-    private boolean color;
-    private Frequency frequency;
+    private String subscriptionIndex;
 
     public Newspaper() {
-
     }
 
-    public Newspaper(String title, String subscriptionIndex, String website, AgeCategory ageCategory,
-                     int circulation, PaperProperties paperProperties, boolean color, Frequency frequency) {
-        super(title, subscriptionIndex, website, ageCategory, circulation, paperProperties);
-        this.color = color;
-        this.frequency = frequency;
+    public Newspaper(String title, String id, AgeCategory ageCategory,
+                     int circulation, PaperProperties paperProperties, String subscriptionIndex, boolean color, Frequency frequency) {
+        super(title, id, ageCategory, circulation, color, paperProperties, frequency);
+        this.subscriptionIndex = subscriptionIndex;
     }
 
-    public boolean isColor() {
-        return color;
+    public String getSubscriptionIndex() {
+        return subscriptionIndex;
     }
 
-    public void setColor(boolean color) {
-        this.color = color;
+    public void setSubscriptionIndex(String subscriptionIndex) {
+        this.subscriptionIndex = subscriptionIndex;
     }
 
-    public Frequency getFrequency() {
-        return frequency;
-    }
-
-    public void setFrequency(Frequency frequency) {
-        this.frequency = frequency;
-    }
-
-    public void setFrequency(String frequency) {
-        this.frequency = Frequency.valueOf(frequency.toUpperCase());
-    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Newspaper)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         Newspaper newspaper = (Newspaper) o;
-        if (color != newspaper.color) return false;
-        return frequency == newspaper.frequency;
+        return subscriptionIndex == newspaper.subscriptionIndex;
     }
 
     @Override
     public int hashCode() {
         int result = super.hashCode();
-        result = 31 * result + (color ? 1 : 0);
-        result = 31 * result + (frequency != null ? frequency.hashCode() : 0);
+        result = 31 * result + (subscriptionIndex != null ? subscriptionIndex.hashCode() : 0);
         return result;
     }
 
@@ -57,13 +41,7 @@ public class Newspaper extends AbstractPaper {
     public String toString() {
         final StringBuilder newspaper = new StringBuilder();
         newspaper.append(super.toString())
-                .append("\nFrequency: ").append(frequency);
-        if (color) {
-            newspaper.append("\nColor: Polychrome");
-        } else {
-            newspaper.append("\nColor: Monochrome");
-        }
+                .append("\nSubscription index: ").append(subscriptionIndex);
         return newspaper.toString();
     }
-
 }

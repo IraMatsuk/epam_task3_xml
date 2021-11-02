@@ -25,7 +25,7 @@ public abstract class AbstractPaperBuilder {
     public abstract void buildSetPapers(String filename) throws XmlException;
 
     public Set<AbstractPaper> getPapers() {
-        return papers;
+        return Set.copyOf(papers);
     }
 
     protected LocalDate parseStringToLocalDate(String data) {

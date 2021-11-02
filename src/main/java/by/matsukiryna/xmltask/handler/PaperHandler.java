@@ -1,6 +1,7 @@
 package by.matsukiryna.xmltask.handler;
 
 import by.matsukiryna.xmltask.entity.AbstractPaper;
+import by.matsukiryna.xmltask.entity.Booklet;
 import by.matsukiryna.xmltask.entity.Magazine;
 import by.matsukiryna.xmltask.entity.Newspaper;
 import org.apache.logging.log4j.Level;
@@ -43,7 +44,7 @@ public class PaperHandler extends DefaultHandler {
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) {
-        if (NEWSPAPER.getValue().equals(qName) || MAGAZINE.getValue().equals(qName)) {
+        if (NEWSPAPER.getValue().equals(qName) || MAGAZINE.getValue().equals(qName) || BOOKLET.getValue().equals(qName)) {
             currentXmlTag = valueOf(qName.toUpperCase());
 
             switch (currentXmlTag) {
@@ -53,15 +54,13 @@ public class PaperHandler extends DefaultHandler {
                 case MAGAZINE:
                     currentPaper = new Magazine();
                     break;
+                case BOOKLET:
+                    currentPaper = new Booklet();
+                    break;
             }
-
             currentXmlTag = null;
+            currentPaper.setId(attributes.getValue(ID.getValue()));
             currentPaper.setAgeCategory(attributes.getValue(AGE_CATEGORY.getValue()));
-
-            if (attributes.getLength() == 2) {
-                currentPaper.setWebsite(attributes.getValue(WEBSITE.getValue()));
-            }
-
         } else {
             PaperXmlTag temp = valueOf(qName.toUpperCase().replace(HYPHEN, UNDERSCORE));
             if (withText.contains(temp)) {
@@ -73,20 +72,25 @@ public class PaperHandler extends DefaultHandler {
     @Override
     public void characters(char[] ch, int start, int length) {
         String data = new String(ch, start, length).trim();
-
         if (currentXmlTag != null) {
             switch (currentXmlTag) {
                 case TITLE:
                     currentPaper.setTitle(data);
                     break;
-                case SUBSCRIPTION_INDEX:
-                    currentPaper.setSubscriptionIndex(data);
+                case ID:
+                    currentPaper.setId(data);
+                    break;
+                case AGE_CATEGORY:
+                    currentPaper.setAgeCategory(data);
                     break;
                 case ISSUE:
                     currentPaper.getPaperProperties().setIssue(Integer.parseInt(data));
                     break;
                 case PAGES:
                     currentPaper.getPaperProperties().setPages(Integer.parseInt(data));
+                    break;
+                case GLOSSY:
+                    currentPaper.getPaperProperties().setGlossy(Boolean.parseBoolean(data));
                     break;
                 case PRICE:
                     currentPaper.getPaperProperties().setPrice(Double.parseDouble(data));
@@ -98,13 +102,22 @@ public class PaperHandler extends DefaultHandler {
                     currentPaper.setCirculation(Integer.parseInt(data));
                     break;
                 case COLOR:
-                    ((Newspaper) currentPaper).setColor(Boolean.parseBoolean(data));
+                     currentPaper.setColor(Boolean.parseBoolean(data));
                     break;
                 case FREQUENCY:
-                    ((Newspaper) currentPaper).setFrequency(data);
+                    currentPaper.setFrequency(data);
                     break;
                 case DIRECTION:
-                    ((Magazine) currentPaper).setDirection(data);
+                    if (currentXmlTag == MAGAZINE) {
+                        ((Magazine) currentPaper).setDirection(data);
+                    }
+                    break;
+                case SUBSCRIPTION_INDEX:
+                    if (currentXmlTag == NEWSPAPER) {
+                        ((Newspaper) currentPaper).setSubscriptionIndex(data);
+                    } else if (currentXmlTag == MAGAZINE) {
+                        ((Magazine) currentPaper).setSubscriptionIndex(data);
+                    }
                     break;
                 default:
                     throw new EnumConstantNotPresentException(currentXmlTag.getDeclaringClass(), currentXmlTag.name());
@@ -115,7 +128,7 @@ public class PaperHandler extends DefaultHandler {
 
     @Override
     public void endElement(String uri, String localName, String qTitle) {
-        if (NEWSPAPER.getValue().equals(qTitle) || MAGAZINE.getValue().equals(qTitle)) {
+        if (NEWSPAPER.getValue().equals(qTitle) || MAGAZINE.getValue().equals(qTitle) || BOOKLET.getValue().equals(qTitle)) {
             papers.add(currentPaper);
         }
     }

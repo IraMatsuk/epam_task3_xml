@@ -1,6 +1,7 @@
 package by.matsukiryna.xmltask.parser;
 
 import by.matsukiryna.xmltask.entity.AbstractPaper;
+import by.matsukiryna.xmltask.entity.Booklet;
 import by.matsukiryna.xmltask.entity.Magazine;
 import by.matsukiryna.xmltask.entity.Newspaper;
 import by.matsukiryna.xmltask.exception.XmlException;
@@ -41,13 +42,11 @@ public class DOMPaperParser extends AbstractPaperBuilder {
         }
 
         Document document;
-
         try {
             logger.log(Level.INFO, "DOM parsing has started");
             document = documentBuilder.parse(fileName);
             Element root = document.getDocumentElement();
             NodeList newspapersList = root.getElementsByTagName(NEWSPAPER.getValue());
-
             for (int i = 0; i < newspapersList.getLength(); i++) {
                 Element newspaperElement = (Element) newspapersList.item(i);
                 AbstractPaper newspaper = buildPaper(newspaperElement);
@@ -55,11 +54,17 @@ public class DOMPaperParser extends AbstractPaperBuilder {
             }
 
             NodeList magazineList = root.getElementsByTagName(MAGAZINE.getValue());
-
             for (int i = 0; i < magazineList.getLength(); i++) {
                 Element magazineElement = (Element) magazineList.item(i);
                 AbstractPaper magazine = buildPaper(magazineElement);
                 papers.add(magazine);
+            }
+
+            NodeList bookletList = root.getElementsByTagName(BOOKLET.getValue());
+            for (int i = 0; i < bookletList.getLength(); i++) {
+                Element bookletElement = (Element) bookletList.item(i);
+                AbstractPaper booklet = buildPaper(bookletElement);
+                papers.add(booklet);
             }
 
         } catch (IOException | SAXException e) {
@@ -75,34 +80,41 @@ public class DOMPaperParser extends AbstractPaperBuilder {
 
         if (paperElement.getTagName().equals(NEWSPAPER.getValue())) {
             paper = new Newspaper();
-            ((Newspaper) paper).setFrequency(getElementTextContent(paperElement, FREQUENCY.getValue()));
-            tempText = getElementTextContent(paperElement, COLOR.getValue());
-            ((Newspaper) paper).setColor(Boolean.parseBoolean(tempText));
+            ((Newspaper) paper).setSubscriptionIndex(getElementTextContent(paperElement, SUBSCRIPTION_INDEX.getValue()));
         } else if (paperElement.getTagName().equals(MAGAZINE.getValue())) {
             paper = new Magazine();
-            ((Magazine) paper).setDirection(getElementTextContent(paperElement, DIRECTION.getValue()));
+            ((Magazine) paper).setSubscriptionIndex(getElementTextContent(paperElement, SUBSCRIPTION_INDEX.getValue()));
+            tempText = getElementTextContent(paperElement, DIRECTION.getValue());
+            ((Magazine)paper).setDirection(tempText);
+        } else if (paperElement.getTagName().equals(BOOKLET.getValue())) {
+            paper = new Booklet();
         } else {
             throw new XmlException("Unreachable exception");
         }
 
-        paper.setAgeCategory(paperElement.getAttribute(AGE_CATEGORY.getValue()));
-        tempText = paperElement.getAttribute(WEBSITE.getValue());
+        paper.setId(paperElement.getAttribute(ID.getValue()));
+        tempText = paperElement.getAttribute(AGE_CATEGORY.getValue());
         if (!tempText.isEmpty()) {
-            paper.setWebsite(tempText);
+            paper.setAgeCategory(tempText);
         }
 
         paper.setTitle(getElementTextContent(paperElement, TITLE.getValue()));
-        paper.setSubscriptionIndex(getElementTextContent(paperElement, SUBSCRIPTION_INDEX.getValue()));
         tempText = getElementTextContent(paperElement, ISSUE.getValue());
         paper.getPaperProperties().setIssue(Integer.parseInt(tempText));
         tempText = getElementTextContent(paperElement, PAGES.getValue());
         paper.getPaperProperties().setPages(Integer.parseInt(tempText));
+        tempText = getElementTextContent(paperElement, GLOSSY.getValue());
+        paper.getPaperProperties().setGlossy(Boolean.parseBoolean(tempText));
         tempText = getElementTextContent(paperElement, PRICE.getValue());
         paper.getPaperProperties().setPrice(Double.parseDouble(tempText));
         tempText = getElementTextContent(paperElement, ISSUE_DATE.getValue());
         paper.getPaperProperties().setIssueDate(parseStringToLocalDate(tempText));
         tempText = getElementTextContent(paperElement, CIRCULATION.getValue());
         paper.setCirculation(Integer.parseInt(tempText));
+        tempText = getElementTextContent(paperElement, COLOR.getValue());
+        paper.setColor(Boolean.parseBoolean(tempText));
+        tempText = getElementTextContent(paperElement, FREQUENCY.getValue());
+        paper.setFrequency(tempText);
         return paper;
     }
 
@@ -113,7 +125,6 @@ public class DOMPaperParser extends AbstractPaperBuilder {
             Node node = nList.item(i);
             text = node.getTextContent();
         }
-
         return text;
     }
 }

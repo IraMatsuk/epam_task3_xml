@@ -1,7 +1,5 @@
 package by.matsukiryna.xmltask.entity;
 
-import java.util.StringJoiner;
-
 public enum Frequency {
     DAILY,
     WEEKLY,
