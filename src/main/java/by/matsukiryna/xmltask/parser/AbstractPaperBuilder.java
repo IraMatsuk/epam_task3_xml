@@ -3,8 +3,6 @@ package by.matsukiryna.xmltask.parser;
 import by.matsukiryna.xmltask.entity.AbstractPaper;
 import by.matsukiryna.xmltask.exception.XmlException;
 
-import java.awt.print.Paper;
-import java.io.InputStream;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.HashSet;

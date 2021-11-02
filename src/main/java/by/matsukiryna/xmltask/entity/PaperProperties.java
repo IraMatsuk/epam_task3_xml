@@ -85,10 +85,10 @@ public class PaperProperties {
     public String toString() {
         final StringBuilder properties = new StringBuilder();
         properties.append("\n\tIssue: ").append(issue)
-                .append("\n\tPages: ").append(pages)
-                .append("\n\tGlossy: ").append(glossy)
-                .append("\n\tPrice: ").append(price)
-                .append("\n\tIssue date: ").append(issueDate);
+                  .append("\n\tPages: ").append(pages)
+                  .append("\n\tGlossy: ").append(glossy)
+                  .append("\n\tPrice: ").append(price)
+                  .append("\n\tIssue date: ").append(issueDate);
         return properties.toString();
     }
 }

@@ -22,17 +22,16 @@ import java.io.IOException;
 
 import static by.matsukiryna.xmltask.handler.PaperXmlTag.*;
 
-public class DOMPaperParser extends AbstractPaperBuilder {
+public class PapersDomBuilder extends AbstractPaperBuilder {
     private static Logger logger = LogManager.getLogger();
     private DocumentBuilder documentBuilder;
 
-    public DOMPaperParser() {
+    public PapersDomBuilder() {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-
         try {
             documentBuilder = factory.newDocumentBuilder();
         } catch (ParserConfigurationException e) {
-            logger.log(Level.ERROR, "DocumentBuilder cannot be created which satisfies the configuration requested");
+            logger.log(Level.ERROR, "DocumentBuilder cannot be created", e);
         }
     }
 
@@ -43,7 +42,7 @@ public class DOMPaperParser extends AbstractPaperBuilder {
 
         Document document;
         try {
-            logger.log(Level.INFO, "DOM parsing has started");
+            logger.log(Level.INFO, "DOM parsing has been started");
             document = documentBuilder.parse(fileName);
             Element root = document.getDocumentElement();
             NodeList newspapersList = root.getElementsByTagName(NEWSPAPER.getValue());
@@ -66,12 +65,10 @@ public class DOMPaperParser extends AbstractPaperBuilder {
                 AbstractPaper booklet = buildPaper(bookletElement);
                 papers.add(booklet);
             }
-
         } catch (IOException | SAXException e) {
-            logger.log(Level.ERROR, "Any SAX or IO Exception during parsing {}", fileName);
+            logger.log(Level.ERROR, "Any SAX or IO Exception during parsing ", fileName, e);
         }
-
-        logger.log(Level.INFO, "DOM parsing has finished successfully");
+        logger.log(Level.INFO, "DOM parsing was successfully");
     }
 
     private AbstractPaper buildPaper(Element paperElement) throws XmlException {

@@ -14,12 +14,12 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.IOException;
 
-public class SAXPaperParser extends  AbstractPaperBuilder {
+public class PapersSaxBuilder extends  AbstractPaperBuilder {
     private static Logger logger = LogManager.getLogger();
     private PaperHandler handler = new PaperHandler();
     private XMLReader reader;
 
-    public SAXPaperParser() {
+    public PapersSaxBuilder() {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         try {
             SAXParser saxParser = factory.newSAXParser();

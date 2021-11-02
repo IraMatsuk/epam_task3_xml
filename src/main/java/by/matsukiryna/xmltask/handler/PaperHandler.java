@@ -39,7 +39,7 @@ public class PaperHandler extends DefaultHandler {
 
     @Override
     public void startDocument() {
-        logger.log(Level.INFO, "SAX parsing has started");
+        logger.log(Level.INFO, "SAX parsing has been started");
     }
 
     @Override
@@ -135,7 +135,7 @@ public class PaperHandler extends DefaultHandler {
 
     @Override
     public void endDocument() {
-        logger.log(Level.INFO, "SAX parsing has finished successfully");
+        logger.log(Level.INFO, "SAX parsing was successfully");
     }
 
     private LocalDate parseStringToLocalDate(String data) {

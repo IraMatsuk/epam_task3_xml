@@ -41,7 +41,7 @@ public class Newspaper extends AbstractPaper {
     public String toString() {
         final StringBuilder newspaper = new StringBuilder();
         newspaper.append(super.toString())
-                .append("\nSubscription index: ").append(subscriptionIndex);
+                 .append("\nSubscription index: ").append(subscriptionIndex);
         return newspaper.toString();
     }
 }

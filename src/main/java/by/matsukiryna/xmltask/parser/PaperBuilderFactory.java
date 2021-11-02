@@ -12,11 +12,11 @@ public class PaperBuilderFactory {
 
         switch (type) {
             case SAX:
-                return new SAXPaperParser();
+                return new PapersSaxBuilder();
             case DOM:
-                return new DOMPaperParser();
+                return new PapersDomBuilder();
             case STAX:
-                return new StAXPaperParser();
+                return new PapersStaxBuilder();
             default:
                 throw new EnumConstantNotPresentException(type.getDeclaringClass(), type.name());
         }

@@ -1,18 +1,18 @@
 2021-11-01 18:23:15 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:23:15 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:23:15 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:23:15 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:25:21 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:41 - src/resources/data/papers.xml can't be read
 2021-11-01 18:25:21 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:41 - src/resources/data/papers.xml can't be read
 2021-11-01 18:26:19 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:26:19 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -111,8 +111,8 @@ Color: Polychrome]
 2021-11-01 18:26:19 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:28:44 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:28:44 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:28:44 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -212,8 +212,8 @@ Color: Polychrome]
 2021-11-01 18:28:44 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:41 - src/main/resources/data/schema/xsd can't be read
 2021-11-01 18:30:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:30:12 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -311,19 +311,19 @@ Color: Polychrome]
 2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:30:12 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:30:12 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:30:12 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:35:14 [main] ERROR by.matsukiryna.validator:20 - 17 : 16 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.fairycompany.com/papers":color}'. One of '{"http://www.fairycompany.com/papers":frequency}' is expected.
 2021-11-01 18:35:14 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:39 - src/main/resources/data/papers.xml or src/main/resources/data/schema.xsd is not correct of valid
 2021-11-01 18:35:14 [main] ERROR by.matsukiryna.validator:20 - 17 : 16 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.fairycompany.com/papers":color}'. One of '{"http://www.fairycompany.com/papers":frequency}' is expected.
 2021-11-01 18:35:14 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:39 - src/main/resources/data/papers.xml or src/main/resources/data/schema.xsd is not correct of valid
 2021-11-01 18:35:36 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:35:36 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -421,15 +421,15 @@ Color: Polychrome]
 2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:35:36 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:35:36 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:35:36 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:37:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:37:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -527,15 +527,15 @@ Color: Polychrome]
 2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:37:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:37:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:37:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -633,15 +633,15 @@ Color: Polychrome]
 2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:37:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:37:55 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:37:55 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -739,15 +739,15 @@ Color: Polychrome]
 2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:37:55 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:37:55 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:37:55 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:39:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:39:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -845,15 +845,15 @@ Color: Polychrome]
 2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:39:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:39:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:39:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:40:08 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:40:08 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -951,15 +951,15 @@ Color: Polychrome]
 2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:40:08 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:40:08 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:40:08 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:40:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:40:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Website: www.pvz.by
 Title: Переходный возраст
@@ -1057,15 +1057,15 @@ Color: Polychrome]
 2021-11-01 18:40:38 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:40:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:40:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:40:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:42:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-01 18:42:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
 Title: Детективная Газета
 Age category: Adult
@@ -1163,26 +1163,26 @@ Color: Monochrome]
 2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:41 - SAX parsing has started
 2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:125 - SAX parsing has finished successfully
 2021-11-01 18:42:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:69 - DOM parsing has finished successfully
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:69 - DOM parsing has finished successfully
 2021-11-01 18:42:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
-2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:147 - StAX parsing has finished successfully
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-01 18:42:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:147 - StAX parsing has finished successfully
 2021-11-02 16:55:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 16:55:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 16:55:39 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-02 16:55:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
 2021-11-02 16:56:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 16:56:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 16:56:32 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-02 16:56:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
 2021-11-02 17:04:21 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:04:21 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:04:21 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-02 17:04:21 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
 2021-11-02 17:05:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:05:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:05:02 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-02 17:05:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
 2021-11-02 17:13:13 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:41 - data/papers.xml can't be read
 2021-11-02 17:13:13 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:13:13 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:44 - StAX parsing has started
+2021-11-02 17:13:13 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
 2021-11-02 17:13:48 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:13:48 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:13:48 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
@@ -1200,8 +1200,8 @@ Color: Monochrome]
 2021-11-02 17:23:48 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:23:56 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:23:56 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:23:56 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:23:56 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:23:56 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:23:56 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:23:56 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [Magazine[
 Subscription index: i20056, 
 Direction: Medicine], Booklet[], Magazine[
@@ -1226,8 +1226,8 @@ Color: Monochrome]
 2021-11-02 17:23:56 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:26:19 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:26:19 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:26:19 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:26:19 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:26:19 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:26:19 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:26:19 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [Magazine[
 Subscription index: i20056, 
 Direction: Medicine], Booklet[], Magazine[
@@ -1252,8 +1252,8 @@ Color: Monochrome]
 2021-11-02 17:26:19 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:31:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:31:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:31:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:31:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:31:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:31:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:31:31 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [Magazine{
 SubscriptionIndex='i20056
 Direction=Medicine, Booklet[], Magazine{
@@ -1278,8 +1278,8 @@ Color: Monochrome]
 2021-11-02 17:31:31 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:32:16 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:32:16 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:32:16 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:32:16 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:32:16 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:32:16 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:32:16 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 ID: 
 Title: Cool
@@ -1334,8 +1334,8 @@ Color: Monochrome]
 2021-11-02 17:32:16 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:34:42 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:34:42 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:34:42 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:34:43 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:34:42 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:34:43 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:34:43 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title='Cool
 ID='
@@ -1394,8 +1394,8 @@ Color: Monochrome]
 2021-11-02 17:34:43 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:36:33 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:36:33 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:36:33 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:36:33 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:36:33 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:36:33 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:36:33 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title=Cool
 ID='
@@ -1454,8 +1454,8 @@ Color: Monochrome]
 2021-11-02 17:36:33 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:37:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:37:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:37:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:37:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:37:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:37:26 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Cool
 ID: 
@@ -1514,8 +1514,8 @@ Color: Monochrome]
 2021-11-02 17:37:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:39:56 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:39:56 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:39:56 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:39:56 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:39:56 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:39:56 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:39:56 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Cool
 ID: 
@@ -1574,8 +1574,8 @@ Color: Monochrome]
 2021-11-02 17:39:56 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:40:46 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:40:46 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:40:46 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:40:46 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:40:46 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:40:46 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:40:46 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Cool
 ID: 
@@ -1630,8 +1630,8 @@ Color: Monochrome]
 2021-11-02 17:40:46 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 17:43:05 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 17:43:05 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 17:43:05 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 17:43:05 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 17:43:05 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 17:43:05 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 17:43:05 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Большой Спорт
 ID: 
@@ -1686,8 +1686,8 @@ Color: Monochrome]
 2021-11-02 17:43:05 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:19:41 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:19:41 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:19:41 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:19:41 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:19:41 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:19:41 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:19:41 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Игромания
 ID: 
@@ -1760,8 +1760,8 @@ Frequency: null]
 2021-11-02 18:19:41 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:20:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:20:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:20:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:20:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:20:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:20:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:20:31 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -1834,8 +1834,8 @@ Subscription index: i45891]
 2021-11-02 18:20:31 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:23:09 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:23:09 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:23:09 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:23:09 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:23:09 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:23:09 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:23:09 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -1908,8 +1908,8 @@ Direction: Other]
 2021-11-02 18:23:09 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:24:01 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:24:01 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:24:01 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:24:01 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:24:01 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:24:01 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:24:01 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [, 
 Title: Советская Беларусь
 ID: 
@@ -1970,8 +1970,8 @@ Direction: Other]
 2021-11-02 18:24:01 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:25:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:25:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:25:47 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:25:47 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:25:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:25:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:25:47 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [, 
 Title: Советская Беларусь
 ID: 
@@ -2032,8 +2032,8 @@ Direction: Other]
 2021-11-02 18:25:47 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:26:07 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:26:07 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:26:07 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:26:07 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:26:07 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:26:07 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:26:07 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -2106,8 +2106,8 @@ Subscription index: i45891]
 2021-11-02 18:26:07 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:28:04 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:28:04 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:28:04 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:28:04 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:28:04 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:28:04 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:28:04 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Советская Беларусь
 ID: 
@@ -2180,8 +2180,8 @@ Frequency: null]
 2021-11-02 18:28:04 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:35:33 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:35:33 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:35:33 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:35:33 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:35:33 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:35:33 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:35:33 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -2254,8 +2254,8 @@ Direction: Other]
 2021-11-02 18:35:33 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:36:57 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:36:57 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:36:57 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:36:57 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:36:57 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:36:57 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:36:57 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Советская Беларусь
 ID: 
@@ -2328,8 +2328,8 @@ Direction: Sport]
 2021-11-02 18:36:57 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:37:05 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:37:05 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:37:05 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:37:05 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:37:05 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:37:05 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:37:05 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Cool
 ID: 
@@ -2402,8 +2402,8 @@ Subscription index: i45891]
 2021-11-02 18:37:05 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:37:44 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:37:44 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:37:44 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:37:44 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:37:44 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:37:44 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:37:44 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Советская Беларусь
 ID: 
@@ -2476,8 +2476,8 @@ Direction: Medicine]
 2021-11-02 18:37:44 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:39:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:39:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:39:39 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:39:39 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:39:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:39:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:39:39 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Cool
 ID: 
@@ -2550,8 +2550,8 @@ Direction: Sport]
 2021-11-02 18:39:39 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:40:04 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:40:04 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:40:04 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:40:04 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:40:04 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:40:04 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:40:04 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Cool
 ID: 
@@ -2616,8 +2616,8 @@ Direction: Sport]
 2021-11-02 18:44:09 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:39 - src/main/resources/data/papers.xml or src/main/resources/data/schema.xsd is not correct of valid
 2021-11-02 18:46:49 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:46:49 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:46:49 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:46:49 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:46:49 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:46:49 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:46:49 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Советская Беларусь
 ID: 
@@ -2690,8 +2690,8 @@ Frequency: null]
 2021-11-02 18:46:49 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:50:16 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:50:16 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:50:16 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:50:16 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:50:16 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:50:16 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:50:16 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -2764,8 +2764,8 @@ Subscription index: i45891]
 2021-11-02 18:50:16 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:52:25 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
 2021-11-02 18:52:25 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - File is valid
-2021-11-02 18:52:25 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:52:25 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:52:25 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:52:25 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:52:25 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Большой Спорт
 ID: 
@@ -2838,8 +2838,8 @@ Direction: Medicine]
 2021-11-02 18:52:25 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:54:07 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 18:54:07 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 18:54:07 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:54:07 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:54:07 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:54:07 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:54:07 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -2912,8 +2912,8 @@ Subscription index: i45891]
 2021-11-02 18:54:07 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:56:27 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 18:56:27 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 18:56:27 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:56:27 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:56:27 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:56:27 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:56:27 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Советская Беларусь
 ID: 
@@ -2986,8 +2986,8 @@ Frequency: null]
 2021-11-02 18:56:27 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 18:57:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 18:57:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 18:57:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 18:57:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 18:57:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 18:57:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 18:57:31 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Игромания
 ID: 
@@ -3060,8 +3060,8 @@ Frequency: null]
 2021-11-02 18:57:31 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:01:10 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:01:10 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:01:10 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:01:10 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:01:10 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:01:10 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:01:10 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -3161,8 +3161,8 @@ Subscription index: i45891]
 2021-11-02 19:03:06 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:40 - File can't be read
 2021-11-02 19:07:33 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:07:33 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:07:33 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:07:33 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:07:33 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:07:33 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:07:33 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -3235,8 +3235,8 @@ Subscription index: i45891]
 2021-11-02 19:07:33 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:10:28 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:10:28 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:10:28 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:10:28 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:10:28 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:10:28 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:10:28 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Советская Беларусь
 ID: 
@@ -3309,8 +3309,8 @@ Frequency: null]
 2021-11-02 19:10:28 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:13:22 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:13:22 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:13:22 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:13:22 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:13:22 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:13:22 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:13:22 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -3383,8 +3383,8 @@ Subscription index: i45891]
 2021-11-02 19:13:22 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:17:29 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:17:29 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:17:29 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:17:29 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:17:29 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:17:29 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:17:29 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Советская Беларусь
 ID: 
@@ -3457,8 +3457,8 @@ Frequency: null]
 2021-11-02 19:17:29 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:29:18 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:29:18 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:29:18 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:29:18 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:29:18 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:29:18 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:29:18 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: 
@@ -3531,8 +3531,8 @@ Direction: Other]
 2021-11-02 19:29:18 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:32:37 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:32:37 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:32:37 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:32:37 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:32:37 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:32:37 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:32:37 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Советская Беларусь
 ID: 
@@ -3605,14 +3605,14 @@ Frequency: null]
 2021-11-02 19:32:37 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:42:30 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:42:30 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:42:30 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-02 19:42:30 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
 2021-11-02 19:43:03 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:43:03 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:43:03 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
+2021-11-02 19:43:03 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
 2021-11-02 19:43:18 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:43:18 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:43:18 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:43:18 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:43:18 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:43:18 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:43:18 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Большой Спорт
 ID: 
@@ -3685,8 +3685,8 @@ Direction: Medicine]
 2021-11-02 19:43:18 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:45:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:45:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:45:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:45:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:45:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:45:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:45:31 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Игромания
 ID: 
@@ -3759,8 +3759,8 @@ Direction: Sport]
 2021-11-02 19:45:31 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:46:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:46:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:46:02 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:46:02 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:46:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:46:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:46:02 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Cool
 ID: P03
@@ -3833,8 +3833,8 @@ Direction: Sport]
 2021-11-02 19:46:02 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 19:51:27 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 19:51:27 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 19:51:27 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 19:51:27 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 19:51:27 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 19:51:27 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 19:51:27 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Большой Спорт
 ID: P04
@@ -3907,8 +3907,8 @@ Direction: Medicine]
 2021-11-02 19:51:27 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:02:21 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:02:21 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:02:21 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:02:21 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:02:21 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:02:21 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:02:21 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Игромания
 ID: P02
@@ -3981,8 +3981,8 @@ Direction: Sport]
 2021-11-02 20:02:21 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:03:46 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:03:46 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:03:46 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:03:46 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:03:46 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:03:46 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:03:46 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Советская Беларусь
 ID: P01
@@ -4055,8 +4055,8 @@ Direction: Medicine]
 2021-11-02 20:04:33 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:06:07 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:06:07 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:06:07 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:06:07 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:06:07 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:06:07 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:06:07 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Большой Спорт
 ID: P04
@@ -4129,8 +4129,8 @@ Direction: Other]
 2021-11-02 20:06:07 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:06:43 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:06:43 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:06:43 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:06:43 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:06:43 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:06:43 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:06:43 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: P05
@@ -4203,8 +4203,8 @@ Direction: Sport]
 2021-11-02 20:07:09 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:15:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:15:32 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:15:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:15:32 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:15:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:15:32 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:15:32 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: P05
@@ -4277,8 +4277,8 @@ Direction: Sport]
 2021-11-02 20:15:32 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:25:23 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:25:23 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Игромания
 ID: P02
@@ -4351,12 +4351,12 @@ Direction: Sport]
 2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
 2021-11-02 20:25:23 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:25:23 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:27:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:27:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Cool
 ID: P03
@@ -4429,12 +4429,12 @@ Frequency: Monthly]
 2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
 2021-11-02 20:27:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:27:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:29:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:29:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Большой Спорт
 ID: P04
@@ -4507,14 +4507,14 @@ Direction: Other]
 2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
 2021-11-02 20:29:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:29:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:45 - StAX parsing has started
+2021-11-02 20:29:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
 2021-11-02 20:30:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:30:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:30:02 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:30:02 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:30:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:30:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:42:20 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Большой Спорт
 ID: P04
@@ -4585,8 +4585,8 @@ SubscriptionIndex: i76398
 Direction: Other]
 2021-11-02 20:42:22 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:42:22 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:42:22 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:42:22 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:42:22 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:42:22 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:46:13 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Poznay svoyu Belarus
 ID: P05
@@ -4657,8 +4657,8 @@ Frequency: Daily
 Subscription index: i45891]
 2021-11-02 20:46:23 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:46:42 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:46:42 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:46:42 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:46:42 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:46:42 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:46:48 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Большой Спорт
 ID: P04
@@ -4732,8 +4732,8 @@ Direction: Medicine]
 2021-11-02 20:50:27 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
 2021-11-02 20:50:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:50:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Игромания
 ID: P02
@@ -4806,14 +4806,14 @@ Subscription index: i45891]
 2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
 2021-11-02 20:50:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:50:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:45 - StAX parsing has started
+2021-11-02 20:50:31 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
 2021-11-02 20:50:58 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:51:10 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:51:10 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:51:16 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:51:10 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:51:16 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:51:27 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Игромания
 ID: P02
@@ -4886,14 +4886,14 @@ Direction: Medicine]
 2021-11-02 20:51:40 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:52:31 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
 2021-11-02 20:52:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:52:47 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:53:13 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:52:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:53:13 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:53:31 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:53:35 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:45 - StAX parsing has started
+2021-11-02 20:53:35 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
 2021-11-02 20:59:20 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 20:59:20 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Игромания
 ID: P02
@@ -4966,14 +4966,14 @@ Direction: Sport]
 2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
 2021-11-02 20:59:20 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 20:59:20 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:45 - StAX parsing has started
+2021-11-02 20:59:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
 2021-11-02 21:03:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 21:03:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Большой Спорт
 ID: P04
@@ -5046,14 +5046,14 @@ Direction: Other]
 2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
 2021-11-02 21:03:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 21:03:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:45 - StAX parsing has started
+2021-11-02 21:03:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
 2021-11-02 21:06:43 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
 2021-11-02 21:06:43 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
 Title: Игромания
 ID: P02
@@ -5126,8 +5126,1778 @@ Direction: Sport]
 2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
 2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
 2021-11-02 21:06:43 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:46 - DOM parsing has started
-2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.DOMPaperParser:74 - DOM parsing has finished successfully
+2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
 2021-11-02 21:06:43 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
-2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:45 - StAX parsing has started
-2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.StAXPaperParser:162 - StAX parsing has finished successfully
+2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
+2021-11-02 21:06:43 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:162 - StAX parsing has finished successfully
+2021-11-02 21:21:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:21:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:21:38 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 21:21:38 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 21:21:38 [main] INFO  by.matsukiryna.xmltask.main.Main:19 - [
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other]
+2021-11-02 21:21:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:21:38 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
+2021-11-02 21:21:38 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
+2021-11-02 21:21:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:21:38 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 21:21:38 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 21:21:38 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:21:38 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
+2021-11-02 21:21:38 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:162 - StAX parsing has finished successfully
+2021-11-02 21:22:04 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:40 - File can't be read
+2021-11-02 21:22:04 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:40 - File can't be read
+2021-11-02 21:23:07 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - Incorrect file
+2021-11-02 21:23:07 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - Incorrect file
+2021-11-02 21:29:33 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - Incorrect file
+2021-11-02 21:29:33 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - Incorrect file
+2021-11-02 21:57:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:57:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:57:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 21:57:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 21:57:26 [main] INFO  by.matsukiryna.xmltask.main.Main:30 - [
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly]
+2021-11-02 21:57:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:57:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
+2021-11-02 21:57:26 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
+2021-11-02 21:57:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:57:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 21:57:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 21:57:26 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 21:57:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
+2021-11-02 21:57:26 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:162 - StAX parsing has finished successfully
+2021-11-02 22:01:52 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:01:52 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:01:52 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 22:01:52 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 22:01:52 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:01:52 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
+2021-11-02 22:01:52 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
+2021-11-02 22:01:52 [main] INFO  by.matsukiryna.xmltask.main.Main:31 - [
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other]
+2021-11-02 22:01:52 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:01:52 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 22:01:52 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 22:01:52 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:01:52 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
+2021-11-02 22:01:52 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:162 - StAX parsing has finished successfully
+2021-11-02 22:02:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:02:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.main.Main:29 - [
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly]
+2021-11-02 22:02:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.main.Main:32 - [
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly]
+2021-11-02 22:02:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 22:02:11 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:35 - File is valid
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:162 - StAX parsing has finished successfully
+2021-11-02 22:02:11 [main] INFO  by.matsukiryna.xmltask.main.Main:37 - [
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly]
+2021-11-02 22:03:40 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - Incorrect file
+2021-11-02 22:03:40 [main] ERROR by.matsukiryna.xmltask.validator.PaperXmlValidator:36 - Incorrect file
+2021-11-02 22:11:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:11:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.main.Main:24 - [
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport]
+2021-11-02 22:11:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.main.Main:27 - [
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport]
+2021-11-02 22:11:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 22:11:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:161 - StAX parsing has finished successfully
+2021-11-02 22:11:47 [main] INFO  by.matsukiryna.xmltask.main.Main:32 - [
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport]
+2021-11-02 22:14:46 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:14:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.main.Main:24 - [
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891]
+2021-11-02 22:14:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.main.Main:27 - [
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891]
+2021-11-02 22:14:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has started
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:74 - DOM parsing has finished successfully
+2021-11-02 22:14:47 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:45 - StAX parsing has started
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:161 - StAX parsing has finished successfully
+2021-11-02 22:14:47 [main] INFO  by.matsukiryna.xmltask.main.Main:32 - [
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891]
+2021-11-02 22:22:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:22:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has been started
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:72 - DOM parsing has finished successfully
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly]
+2021-11-02 22:22:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.main.Main:25 - [
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly]
+2021-11-02 22:22:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has been started
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:72 - DOM parsing has finished successfully
+2021-11-02 22:22:02 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:157 - StAX parsing was successfully
+2021-11-02 22:22:02 [main] INFO  by.matsukiryna.xmltask.main.Main:30 - [
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly]
+2021-11-02 22:23:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:23:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has been started
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:72 - DOM parsing has finished successfully
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.main.Main:22 - [
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport]
+2021-11-02 22:23:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has started
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing has finished successfully
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.main.Main:25 - [
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport]
+2021-11-02 22:23:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:46 - DOM parsing has been started
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:72 - DOM parsing has finished successfully
+2021-11-02 22:23:39 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has started
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:157 - StAX parsing was successfully
+2021-11-02 22:23:39 [main] INFO  by.matsukiryna.xmltask.main.Main:30 - [
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport]
+2021-11-02 22:29:20 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:29:20 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:45 - DOM parsing has been started
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:71 - DOM parsing was successfully
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.main.Main:23 - [
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891]
+2021-11-02 22:29:20 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has been started
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing was successfully
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891]
+2021-11-02 22:29:20 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:45 - DOM parsing has been started
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:71 - DOM parsing was successfully
+2021-11-02 22:29:20 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has been started
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:157 - StAX parsing was successfully
+2021-11-02 22:29:20 [main] INFO  by.matsukiryna.xmltask.main.Main:31 - [
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891]
+2021-11-02 22:32:00 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:32:00 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:45 - DOM parsing has been started
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:71 - DOM parsing was successfully
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.main.Main:23 - [
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport]
+2021-11-02 22:32:00 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:42 - SAX parsing has been started
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.handler.PaperHandler:138 - SAX parsing was successfully
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.main.Main:26 - [
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport]
+2021-11-02 22:32:00 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:45 - DOM parsing has been started
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.parser.PapersDomBuilder:71 - DOM parsing was successfully
+2021-11-02 22:32:00 [main] DEBUG by.matsukiryna.xmltask.validator.PaperXmlValidator:38 - File is valid
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:44 - StAX parsing has been started
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.parser.PapersStaxBuilder:157 - StAX parsing was successfully
+2021-11-02 22:32:00 [main] INFO  by.matsukiryna.xmltask.main.Main:31 - [
+Title: Игромания
+ID: P02
+AgeCategory: All
+Circulation: 180000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 208
+	Glossy: false
+	Price: 20.0
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i76398
+Direction: Other, 
+Title: Poznay svoyu Belarus
+ID: P05
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 1000
+	Pages: 48
+	Glossy: true
+	Price: 10.2
+	Issue date: 2021-01-01
+Frequency: Monthly, 
+Title: Советская Беларусь
+ID: P01
+AgeCategory: All
+Circulation: 50000
+Color: No
+PaperProperties: 
+	Issue: 1814
+	Pages: 22
+	Glossy: false
+	Price: 3.25
+	Issue date: 2021-11-01
+Frequency: Daily
+Subscription index: i45891, 
+Title: Cool
+ID: P03
+AgeCategory: All
+Circulation: 43000
+Color: No
+PaperProperties: 
+	Issue: 1548
+	Pages: 63
+	Glossy: false
+	Price: 8.5
+	Issue date: 2021-11-01
+Frequency: Daily
+SubscriptionIndex: i20056
+Direction: Medicine, 
+Title: Большой Спорт
+ID: P04
+AgeCategory: All
+Circulation: 70000
+Color: No
+PaperProperties: 
+	Issue: 240
+	Pages: 150
+	Glossy: true
+	Price: 17.0
+	Issue date: 2021-11-01
+Frequency: Weekly
+SubscriptionIndex: i12354
+Direction: Sport]

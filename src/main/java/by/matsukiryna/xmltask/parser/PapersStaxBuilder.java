@@ -24,13 +24,13 @@ import java.io.FileNotFoundException;
 
 import static by.matsukiryna.xmltask.handler.PaperXmlTag.*;
 
-public class StAXPaperParser extends AbstractPaperBuilder {
+public class PapersStaxBuilder extends AbstractPaperBuilder {
     private static Logger logger = LogManager.getLogger();
     private static final String HYPHEN = "-";
     private static final String UNDERSCORE = "_";
     private XMLInputFactory inputFactory;
 
-    public StAXPaperParser() {
+    public PapersStaxBuilder() {
         inputFactory = XMLInputFactory.newInstance();
     }
 
@@ -40,9 +40,8 @@ public class StAXPaperParser extends AbstractPaperBuilder {
         if (!PaperXmlValidator.validatePaperXml(fileName)) {
             throw new XmlException("File " + fileName + " hasn't passed validation!");
         }
-
         try {
-            logger.log(Level.INFO, "StAX parsing has started");
+            logger.log(Level.INFO, "StAX parsing has been started");
             XMLEventReader reader = inputFactory.createXMLEventReader(new FileInputStream(fileName));
             while (reader.hasNext()) {
                 XMLEvent event = reader.nextEvent();
@@ -51,7 +50,6 @@ public class StAXPaperParser extends AbstractPaperBuilder {
                     String textElement = startElement.getName().getLocalPart();
                     PaperXmlTag currentXmlTag;
                     currentXmlTag = PaperXmlTag.valueOf(textElement.toUpperCase().replace(HYPHEN, UNDERSCORE));
-
                     switch (currentXmlTag) {
                         case NEWSPAPER:
                             paper = new Newspaper();
@@ -90,7 +88,7 @@ public class StAXPaperParser extends AbstractPaperBuilder {
                         case SUBSCRIPTION_INDEX:
                             event = reader.nextEvent();
                             if (event.equals(NEWSPAPER)) {
-                                ((Newspaper)paper).setSubscriptionIndex(event.asCharacters().getData());
+                                ((Newspaper) paper).setSubscriptionIndex(event.asCharacters().getData());
                             } else if (event.equals(MAGAZINE)) {
                                 ((Magazine) paper).setSubscriptionIndex(event.asCharacters().getData());
                             }
@@ -144,21 +142,18 @@ public class StAXPaperParser extends AbstractPaperBuilder {
                             }
                     }
                 }
-
                 if (event.isEndElement()) {
                     EndElement endElement = event.asEndElement();
                     String textElement = endElement.getName().getLocalPart();
                     if (textElement.equals(NEWSPAPER.getValue()) || textElement.equals(MAGAZINE.getValue())
-                    || textElement.equals(BOOKLET.getValue())) {
+                            || textElement.equals(BOOKLET.getValue())) {
                         papers.add(paper);
                     }
                 }
             }
-
         } catch (FileNotFoundException | XMLStreamException e) {
             logger.log(Level.ERROR, "Error with the underlying XML ", fileName);
         }
-
-        logger.log(Level.INFO, "StAX parsing has finished successfully");
+        logger.log(Level.INFO, "StAX parsing was successfully");
     }
 }
